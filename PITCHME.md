@@ -55,16 +55,15 @@
 
 - txtファイルを作成後、下記のようにtxtファイル内に処理を記載していく
 
-  
-@fa[arrow-circle-down fa-lg]
+  
+下に進む@fa[arrow-circle-down fa-lg]
 
 +++
 
 - txtファイルの拡張子を.batに変更し、ダブルクリックする。フォルダが２つ開くことを確認できる。
 
-
 　　
-@fa[arrow-circle-right fa-lg]
+右に進む@fa[arrow-circle-right fa-lg]
 
 ---
 
