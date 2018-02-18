@@ -1,6 +1,8 @@
 ---
 　　
 <img src="/images/introduction.gif" width=90%>
+![Video](https://www.youtube.com/embed/i65tQKPIWic)
+
 ---
 
 ### 閲覧上の注意　　　　　　　　
