@@ -1,5 +1,5 @@
 ---
-theme: moon
+
 <img src="/images/introduction.gif" width=90%>
 
 ---
