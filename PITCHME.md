@@ -54,8 +54,6 @@
 
 +++
 
-<img src="/images/makebat.gif" width=90%>
-
 ---
 
 ### バッチの実装方法
