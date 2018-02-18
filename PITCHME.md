@@ -54,7 +54,7 @@
 
 +++
 
-
+<img src="/images/makebat.gif" width=90%>
 
 ---
 
