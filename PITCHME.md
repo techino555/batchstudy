@@ -10,7 +10,7 @@
 - スマートフォンからの閲覧が可能です。
 - 下にスライドして進めることがあります。
 - 動画が出てきますが一時停止不可です。
-**スマートフォンではスワイプ@fa[hand-point-left]@fa[hand-point-right]でページ移動します。**
+- スマートフォンではスワイプ@fa[hand-point-left] <i class="far fa-hand-point-right"></i>でページ移動します。**
 <br>
 ---
 
