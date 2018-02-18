@@ -1,6 +1,6 @@
 ---
 
-<img src="/images/introduction.gif" width=80%>
+<img src="/images/introduction.gif" width=90%>
 
 ---
 
