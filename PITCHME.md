@@ -1,8 +1,6 @@
 ---
 　　
-<img src="/images/introduction.gif" width=75%>
-  
-![Video](https://www.youtube.com/embed/i65tQKPIWic)
+<img src="/images/introduction.gif" width=90%>
 
 ---
 
