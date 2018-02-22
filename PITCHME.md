@@ -118,11 +118,6 @@ set month=%date:~5,2%  
 
 
 +++
-
-```
-
-
-
 ```
 set day=%date:~8,2%  
 ```
@@ -130,7 +125,7 @@ set day=%date:~8,2%  
 4文字分の値を取得。結果は24。  
 
 ```
-- set date2=%year%%month%%day%  
+set date2=%year%%month%%day%  
 ```
 →それぞれ設定した変数を%で囲った形で続けて  
 定義できる。この場合の結果は20180224。  
