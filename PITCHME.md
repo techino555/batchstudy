@@ -131,7 +131,8 @@ set date2=%year%%month%%day%  
 定義できる。この場合の結果は20180224。  
 
 +++
-```sample.bat
+
+```sample.bat　
 @echo off 
 rem 現在のディレクトリ情報を取得する。
 rem 今日の日付をログファイルに付加する。
@@ -145,7 +146,7 @@ set date2=%year%%month%%day%
 dir > log_%date2%
 
 exit /b 
-```
+```　
 
 ---
 
