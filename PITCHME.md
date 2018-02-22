@@ -89,15 +89,14 @@
 
 バッチには変数を設定することができる。  
 設定例:  
-
-set year=%date:~0,4%
-set month=%date:~5,2%
-set day=%date:~8,2%
-set date2=%year%%month%%day%
+set year=%date:~0,4%    
+set month=%date:~5,2%    
+set day=%date:~8,2%  
+set date2=%year%%month%%day%    
 
 これについてシステムで設定されている変数であるdateの  
 出力を踏まえて説明していく。  
-なお下記のコマンドでdateで現れる現在時刻を表示できる。
+なお下記のコマンドでdateで現れる現在時刻を表示できる。  
 
 ```
 echo %date%
@@ -112,11 +111,10 @@ echo %date%
 役割の紹介  
 
 
-set year=%date:~0,4%  
-- 
-set month=%date:~5,2%
-set day=%date:~8,2%
-set date2=%year%%month%%day%
+- set year=%date:~0,4%  
+- set month=%date:~5,2%
+- set day=%date:~8,2%
+- set date2=%year%%month%%day%
 
 
 
