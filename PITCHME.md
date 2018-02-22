@@ -120,6 +120,10 @@ set month=%date:~5,2%  
 +++
 
 ```
+
+
+
+```
 set day=%date:~8,2%  
 ```
 →date変数の出力結果の1文字目から5文字までの  
@@ -132,8 +136,21 @@ set day=%date:~8,2%  
 定義できる。この場合の結果は20180224。  
 
 +++
+```sample.bat
+@echo off 
+rem 現在のディレクトリ情報を取得する。
+rem 今日の日付をログファイルに付加する。
+rem 作成は石川。
 
+set year=%date:~0,4%    
+set month=%date:~5,2%    
+set day=%date:~8,2%  
+set date2=%year%%month%%day%    
 
+dir > log_%date2%
+
+exit /b 
+```
 
 ---
 
