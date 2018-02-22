@@ -97,9 +97,10 @@
 ```
 
 %と%を囲うことで変数で定義した値を取得できる。  
+
++++
+
 また自分で変数を設定することもできる。  
-
-
 設定例:  
 set year=%date:~0,4%    
 set month=%date:~5,2%    
@@ -113,9 +114,9 @@ set date2=%year%%month%%day%
 
 
 - set year=%date:~0,4%  
-- set month=%date:~5,2%
-- set day=%date:~8,2%
-- set date2=%year%%month%%day%
+- set month=%date:~5,2%  
+- set day=%date:~8,2%  
+- set date2=%year%%month%%day%  
 
 
 
