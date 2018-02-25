@@ -72,12 +72,12 @@ exit /b
 @echo off
 rem 作成 石川
 
-echo "処理を開始"  
-  
-rem "C:\Users\hide\Desktop\HTML"フォルダを開く
+echo "処理を開始"
 
+rem "C:\Users\hide\Desktop\HTML"フォルダを開く
 call explorer C:\Users\hide\Desktop\HTML
 
+rem 処理競合を防止するため1秒間待つ
 timeout /t 1
 
 call explorer C:\Users\hide\Desktop\Linux
