@@ -46,16 +46,12 @@
 rem 上は後述
 
 call explorer C:\Users\hide\Desktop\HTML
-
 timeout /t 1
-
 call explorer C:\Users\hide\Desktop\Linux
-
 exit /b
 ```
 
-<p><font size="5">作成後拡張子をbatに変更し、ダブルクリックすると</br>
-フォルダが２つ開くことを確認できる。</p></br>
+作成後拡張子をbatに変更し、ダブルクリックするとフォルダが２つ開くことを確認できる。</br>
 右に進む@fa[arrow-circle-right fa-lg]
 ---
 #### バッチ運用のコツ：echoはつけよう
