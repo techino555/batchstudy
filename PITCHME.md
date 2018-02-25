@@ -74,7 +74,8 @@ rem 作成 石川
 
 echo "処理を開始"  
   
-rem "C:\Users\hide\Desktop\HTML"フォルダを開く  
+rem "C:\Users\hide\Desktop\HTML"フォルダを開く
+
 call explorer C:\Users\hide\Desktop\HTML
 
 timeout /t 1
