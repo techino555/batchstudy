@@ -42,7 +42,7 @@
 </br>
 ```
 @echo off
-rem 上は後述
+rem 
 
 call explorer C:\Users\hide\Desktop\HTML
 
