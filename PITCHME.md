@@ -248,7 +248,6 @@ tasklist >> log.txt  のようなイメージになる
 ---
 
 ### 7.　参照資料、ツールの紹介１
-</br>
 - GitPitch</br> 
 https://gitpitch.com/</br> 
 markdown記法でのプレゼンテーションを可能とするGitHubが提供しているサービス。
@@ -256,7 +255,6 @@ markdown記法でのプレゼンテーションを可能とするGitHubが提供
 ---
 
 ### 参照資料、ツールの紹介２
-</br>
 - ScreenToGif</br> 
 http://www.screentogif.com/</br> 
 デスクトップ画面を録画し、ちょっとした画像編集、テキストやイメージを追加してGIFアニメとして保存できるキャプチャソフト。Windows用。
@@ -264,7 +262,6 @@ http://www.screentogif.com/</br>
 ---
 
 ### 参照資料、ツールの紹介３
-</br>
 - フォント（@fa[arrow-circle-down fa-lg]など）</br> 
 https://fontawesome.com/</br> 
 GitPitchで使えるアイコン集。有料のアイコンもある。gitpitchで使えるのは無料のアイコンのみのため今回は無料のものを使用した。
