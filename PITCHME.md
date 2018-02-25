@@ -1,7 +1,5 @@
 ---
-
 <img src="/images/introduction.gif" width=90%>
-
 ---
 
 ### 閲覧上の注意
