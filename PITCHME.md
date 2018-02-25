@@ -177,8 +177,8 @@ exit /b
 </br>
 @fa[arrow-circle-down fa-lg]
 +++
-例えば前述のtest2.batを実行し、そのすべての処理</br> 
-ログを出力させるために下記のようなバッチを実行する。</br> 
+例えば前述のtest2.batを実行し、そのログを出力させる</br> 
+ために下記のようなバッチを作り実行するほうがよい。</br> 
 
 ```
 @echo off
@@ -194,16 +194,19 @@ set date2=%year%%month%%day%
 
 echo "処理開始"
 
-
 call test2.bat >> log_%date2%.txt
 
 endlocal
 exit /b
 ```
-
+</br>
+@fa[arrow-circle-down fa-lg]
++++
 このようにしないとtest2.batの実行結果をログ出力</br> 
 させる場合はすべての行に` > log.txt `などのログ</br> 
 出力用の記載をしないといけなくなるためである。</br> 
+</br>
+@fa[arrow-circle-right fa-lg]
 ---
 ### 参照資料、ツールの紹介
 ---
