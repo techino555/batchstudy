@@ -53,7 +53,7 @@ call explorer C:\Users\hide\Desktop\Linux
 exit /b
 ```
 
-- 作成後ファイルの拡張子をbatに変更し、ダブルクリックするとフォルダが２つ開くことを確認できる。</br>
+- 作成後拡張子をbatに変更し、ダブルクリックするとフォルダが２つ開くことを確認できる。</br>
 右に進む@fa[arrow-circle-right fa-lg]
 ---
 #### バッチ運用のコツ：echoはつけよう
