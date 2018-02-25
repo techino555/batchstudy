@@ -44,8 +44,7 @@
 1. txtファイルを作成
 2. 処理内容を記載
 3. txtファイルの拡張子を.batに変更する
-4. 実行する</br>
-<img src="/images/bat.JPG">
+4. 実行する　<img src="/images/bat.JPG"></br>
 </br>
 作成例は下記@fa[arrow-circle-down fa-lg]</br>
 右は次項の内容@fa[arrow-circle-right fa-lg]
