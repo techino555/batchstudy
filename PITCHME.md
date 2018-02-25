@@ -40,7 +40,7 @@
 確認しなくてよければ右に進む@fa[arrow-circle-right fa-lg]
 +++
 特定のフォルダを一度に２つ開くバッチを作る。</br>
-txtファイルを作成後、下記のようにtxtファイル内に処理を記載していく</br>
+txtファイルを作成後、下記のようにファイル内に処理を記載していく</br>
 
 ```
 @echo off
@@ -55,8 +55,8 @@ call explorer C:\Users\hide\Desktop\Linux
 exit /b
 ```
 
-- 作成後拡張子をbatに変更し、ダブルクリックするとフォルダが２つ開くことを確認できる。</br>
-右に進む@fa[arrow-circle-right fa-lg]
+作成後拡張子をbatに変更し、ダブルクリックするとフォルダが２つ開くことを確認できる。</br>
+- 右に進む@fa[arrow-circle-right fa-lg]
 ---
 #### バッチ運用のコツ：echoはつけよう
 - 下記に事例を表示
