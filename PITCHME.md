@@ -39,11 +39,10 @@
 実行方法は下記@fa[arrow-circle-down fa-lg]
 +++
 - txtファイルを作成後、下記のようにtxtファイル内に処理を記載していく</br>
-</br>
 
 ```
 @echo off
-rem 
+rem 上は後述
 
 call explorer C:\Users\hide\Desktop\HTML
 
@@ -54,10 +53,7 @@ call explorer C:\Users\hide\Desktop\Linux
 exit /b
 ```
 
-</br>
-</br>
-作成後txtファイルの拡張子をbatに変更し、ダブルクリックする。</br>
-フォルダが２つ開くことを確認できる。</br>
+作成後txtファイルの拡張子をbatに変更し、ダブルクリックするとフォルダが２つ開くことを確認できる。</br>
 </br>
 右に進む@fa[arrow-circle-right fa-lg]
 ---
