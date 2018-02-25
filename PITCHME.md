@@ -41,8 +41,20 @@
 - txtファイルを作成後、下記のようにtxtファイル内に処理を記載していく</br>
 </br>
 ```
+@echo off
+rem 上は後述
+
+call explorer C:\Users\hide\Desktop\HTML
+
+timeout /t 1
+
+call explorer C:\Users\hide\Desktop\Linux
+
+exit /b
 ```
-txtファイルの拡張子を.batに変更し、ダブルクリックする。</br>
+</br>
+</br>
+作成後txtファイルの拡張子をbatに変更し、ダブルクリックする。</br>
 フォルダが２つ開くことを確認できる。</br>
 </br>
 右に進む@fa[arrow-circle-right fa-lg]
