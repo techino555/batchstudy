@@ -92,9 +92,11 @@ call explorer C:\Users\hide\Desktop\Linux
 rem バッチの終了
 exit /b
 ```
-処理内容がわかるようになる。
+処理内容がわかるようになる。</br>
+</br>
+右に進む@fa[arrow-circle-right fa-lg]
 ---
-#### 変数の紹介  
+### 変数の紹介  
 
 
 バッチには変数を設定することができる。  
