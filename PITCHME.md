@@ -67,7 +67,8 @@ exit /b
 </br>
 下に進む@fa[arrow-circle-down fa-lg]
 +++
-先のバッチにechoとremを付与してみると</br>
+先のバッチにechoとremを付与してみると
+
 ```
 @echo off
 rem 作成 石川  
@@ -87,6 +88,7 @@ call explorer C:\Users\hide\Desktop\Linux
 rem バッチの終了
 exit /b
 ```
+
 処理内容がわかりやすくなります。
 ---
 #### 変数の紹介  
