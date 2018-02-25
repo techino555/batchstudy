@@ -105,8 +105,8 @@ exit /b
 変数を%と%を囲うことで定義した値を取得できる。</br>  
 下に進む@fa[arrow-circle-down fa-lg]
 +++
-また自分で変数を設定することもできる。 
-設定例:  
+また自分で変数を設定することもできる。</br>  
+設定例:  
 ```
 set year=%date:~0,4%    
 set month=%date:~5,2%    
@@ -145,6 +145,7 @@ set date2=%year%%month%%day%  
 </br>
 @fa[arrow-circle-down fa-lg]
 +++
+下記はdirコマンドの出力を当日の日付が付与されたログファイルを出力するもの。
 ```
 sample2.bat
 ```
@@ -163,7 +164,6 @@ dir > log_%date2%
 
 exit /b 
 ```
-
 </br>
 @fa[arrow-circle-right fa-lg]
 ---
