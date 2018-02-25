@@ -76,8 +76,11 @@ echo "処理を開始"
   
 rem "C:\Users\hide\Desktop\HTML"フォルダを開く  
 call explorer C:\Users\hide\Desktop\HTML
+
 timeout /t 1
+
 call explorer C:\Users\hide\Desktop\Linux
+
 exit /b
 ```
 
