@@ -190,6 +190,7 @@ set MONTH=%date:~5,2%    
 set DAY=%date:~8,2%
 set DATE2=%YEAR%%MONTH%%DAY%   
 
+echo 【現在のディレクトリ配下の情報を取得】
 dir > log_%DATE2%
 
 exit /b 
