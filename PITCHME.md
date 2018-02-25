@@ -37,7 +37,7 @@
 4. 実行する</br>
 </br>
 下に進む@fa[arrow-circle-down fa-lg]</br>
-確認しなくていい場合右に進む@fa[arrow-circle-right fa-lg]
+確認しなくてよければ右に進む@fa[arrow-circle-right fa-lg]
 +++
 - txtファイルを作成後、下記のようにtxtファイル内に処理を記載していく</br>
 
