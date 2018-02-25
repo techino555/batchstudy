@@ -40,6 +40,7 @@
 +++
 - txtファイルを作成後、下記のようにtxtファイル内に処理を記載していく</br>
 </br>
+
 ```
 @echo off
 rem 
@@ -52,6 +53,7 @@ call explorer C:\Users\hide\Desktop\Linux
 
 exit /b
 ```
+
 </br>
 </br>
 作成後txtファイルの拡張子をbatに変更し、ダブルクリックする。</br>
