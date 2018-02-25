@@ -195,7 +195,6 @@ dir > log_%DATE2%
 
 exit /b 
 ```
-</br>
 @fa[arrow-circle-right fa-lg]
 
 ---
