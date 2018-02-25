@@ -67,9 +67,9 @@ exit /b
 </br>
 下に進む@fa[arrow-circle-down fa-lg]
 +++
-先のバッチにechoとremを付与してみると</br>
+先のバッチにechoとremを付与してみると
 
----?code=src/test2.bat
+---?code=src/test2.bat&lang=DOS
 
 処理内容がわかりやすくなります。</br>
 ---
