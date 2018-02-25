@@ -28,6 +28,7 @@
 <p><font size="5">バッチファイル（Batch File）とは、MS-DOS、OS/2、Windowsでのコマンドプロンプト(シェル)に行わせたい命令列をテキストファイルに記述したもの。バッチファイルを実行すると、シェルプログラム(一般に COMMAND.COMやcmd.exe)がそのファイルを読み、その中のコマンドを（通常）一行ずつ実行する。</p>
 <p><font size="5">バッチファイルはUNIX系オペレーティングシステムのシェルスクリプトに相当。</p>
 <p><font size="5">DOSのバッチファイルの拡張子は.BATである。</p>
+<img src="/images/bat.JPG">
  
 ---
 
@@ -44,7 +45,7 @@
 1. txtファイルを作成
 2. 処理内容を記載
 3. txtファイルの拡張子を.batに変更する
-4. 実行する                      <img src="/images/bat.JPG">
+4. 実行する</br>              
 </br>
 作成例は下記@fa[arrow-circle-down fa-lg]</br>
 右は次項の内容@fa[arrow-circle-right fa-lg]
