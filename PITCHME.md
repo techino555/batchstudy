@@ -69,7 +69,7 @@ exit /b
 +++
 
 ```
-@echo off
+@echo off     
 rem 作成 石川
 
 rem 処理開始を宣言
