@@ -169,18 +169,40 @@ exit /b
 </br>
 @fa[arrow-circle-right fa-lg]
 ---
-### 変数設定、ログ設定を記載したバッチと実処理用のバッチファイルは分ける
+### 変数設定、ログ設定を記載したバッチと実処理用のバッチは分ける
 </br>
 一般的に変数設定、ログ出力設定と実処理を記載した</br> 
 バッチを実行するだけのバッチファイルと実行したい</br> 
-処理を記載したバッチは分ける。</br> 
+処理を記載したバッチは分けます。</br> 
 </br>
 @fa[arrow-circle-down fa-lg]
 +++
 例えば前述のtest2.batを実行し、そのすべての処理</br> 
 ログを出力させるために下記のようなバッチを実行する。</br> 
+
+```
+@echo off
+rem 現在のディレクトリ情報を取得する
+rem 今日の日付をログファイルに付加する。
+rem 作成は石川。
+
+setlocal 
+set year=%date:~0,4%
+set month=%date:~5,2%
+set day=%date:~8,2%
+set date2=%year%%month%%day%
+
+echo "処理開始"
+
+
+call test2.bat >> log_%date2%.txt
+
+endlocal
+exit /b
+```
+
 このようにしないとtest2.batの実行結果をログ出力</br> 
-させる場合はすべての行に` > log.txt`などのログ</br> 
+させる場合はすべての行に` > log.txt `などのログ</br> 
 出力用の記載をしないといけなくなるためである。</br> 
 ---
 ### 参照資料、ツールの紹介
