@@ -190,7 +190,7 @@ set MONTH=%date:~5,2%    
 set DAY=%date:~8,2%
 set DATE2=%YEAR%%MONTH%%DAY%   
 
-dir > log_%date2%
+dir > log_%DATE2%
 
 exit /b 
 ```
@@ -226,7 +226,7 @@ set DATE2=%YEAR%%MONTH%%DAY%
 
 echo "処理開始"
 
-call test2.bat >> log_%date2%.txt
+call test2.bat >> log_%DATE2%.txt
 
 endlocal
 exit /b
