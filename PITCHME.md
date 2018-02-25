@@ -201,6 +201,7 @@ exit /b
 ```
 </br>
 @fa[arrow-circle-down fa-lg]
+
 +++
 このようにしないとtest2.batの実行結果をログ出力</br> 
 させる場合はすべての行に` > log.txt `などのログ</br> 
