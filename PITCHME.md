@@ -208,7 +208,7 @@ exit /b
 バッチを実行するだけのバッチファイルと実行したい</br> 
 処理を記載したバッチは分けます。</br> 
 </br>
-@fa[arrow-circle-down fa-lg]
+下に進む@fa[arrow-circle-down fa-lg]</br>
 右は次項の内容@fa[arrow-circle-right fa-lg]
 
 +++
