@@ -68,6 +68,9 @@ exit /b
 +++
 remとechoを付与した形
 ```
+test2.bat
+```
+```
 @echo off
 rem 作成 石川
 
@@ -168,6 +171,8 @@ exit /b
 @fa[arrow-circle-right fa-lg]
 ---
 ### ログと実処理用のファイルは分ける
+
+
 ---
 ### 参照資料、ツールの紹介
 ---
