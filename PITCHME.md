@@ -59,14 +59,34 @@ exit /b
 - rem： コマンド出力に反映されないのでコメントを記載するときに使用。</br>
 - echo： コマンド出力に反映されるコメント。コマンドを投入した人に処理内容を表示する際に使用。</br>
 </br>
+下に進む@fa[arrow-circle-down fa-lg]
+---
 - @echo offについて</br>
 これを冒頭に記載しないとバッチの処理がすべてコマンドプロンプトに出力されてしまうため
 記載することが基本。
-　
+</br>
+下に進む@fa[arrow-circle-down fa-lg]
 +++
-- echoを付与していない時の処理
-+++
-- echoを付与した時の処理
+先のバッチにechoとremを付与してみると</br>
+```
+@echo off
+rem 作成 石川
+
+rem 処理開始を宣言
+echo 処理を開始
+
+rem "C:\Users\hide\Desktop\HTML"フォルダを開く
+call explorer C:\Users\hide\Desktop\HTML
+
+rem 処理競合を防止するため1秒間待つ
+timeout /t 1
+
+rem "C:\Users\hide\Desktop\Linux"フォルダを開く
+call explorer C:\Users\hide\Desktop\Linux
+
+rem バッチの終了
+exit /b
+```
 ---
 #### 変数の紹介  
 
