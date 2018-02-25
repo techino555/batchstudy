@@ -70,7 +70,10 @@ exit /b
 
 ```
 @echo off
-rem 上は後述
+rem 作成 石川
+
+rem 処理開始を宣言
+echo 処理を開始
 
 call explorer C:\Users\hide\Desktop\HTML
 timeout /t 1
