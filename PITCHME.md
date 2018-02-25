@@ -212,7 +212,7 @@ exit /b
 
 例えば前述のtest2.batを実行し</br> 
 ログを出力させるため下記のような</br> 
-バッチを別に作り実行するほうがよい。
+バッチを別に作り実行するほうがよい。    @fa[arrow-circle-down fa-lg]
 ```
 @echo off
 rem 現在のディレクトリ情報を取得する
@@ -232,8 +232,7 @@ call test2.bat >> log_%date2%.txt
 endlocal
 exit /b
 ```
-</br>
-@fa[arrow-circle-down fa-lg]
+
 +++
 このようにしないとtest2.batの実行結果をログ出力</br> 
 させる場合はすべての行に「 > log.txt 」などのログ</br> 
