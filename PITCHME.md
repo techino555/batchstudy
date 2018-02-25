@@ -92,24 +92,20 @@ rem バッチの終了
 exit /b
 ```
 処理内容がわかるようになる。</br>
-</br>
 右に進む@fa[arrow-circle-right fa-lg]
 ---
-### 変数の紹介  
-
-
-バッチには変数を設定することができる。  
-
-
+### 変数の紹介
+バッチには変数を設定することができる。</br>
+</br>
 例：今日の日付を出力する変数DATE  
 ```
 > echo %DATE%
 2018/02/22  
 ```
-変数を%と%を囲うことで定義した値を取得できる。  
+変数を%と%を囲うことで定義した値を取得できる。</br>  
 下に進む@fa[arrow-circle-down fa-lg]
 +++
-また自分で変数を設定することもできる。  
+また自分で変数を設定することもできる。 
 設定例:  
 ```
 set year=%date:~0,4%    
@@ -117,6 +113,8 @@ set month=%date:~5,2%
 set day=%date:~8,2%  
 set date2=%year%%month%%day%    
 ```
+</br>
+@fa[arrow-circle-down fa-lg]
 +++
 役割の紹介  
 
@@ -131,8 +129,8 @@ set month=%date:~5,2%  
 ```
 →date変数のの出力結果の6文字目から7文字までの  
 2文字分の値を取得。結果は02。  
-
-
+</br>
+@fa[arrow-circle-down fa-lg]
 +++
 ```
 set day=%date:~8,2%  
@@ -143,7 +141,9 @@ set day=%date:~8,2%  
 set date2=%year%%month%%day%  
 ```
 →それぞれ設定した変数を%で囲った形で続けて  
-定義できる。この場合の結果は20180222。  
+定義できる。この場合の結果は20180222。</br>
+</br>
+@fa[arrow-circle-down fa-lg]
 +++
 ```
 sample2.bat
@@ -163,6 +163,9 @@ dir > log_%date2%
 
 exit /b 
 ```
+
+</br>
+@fa[arrow-circle-right fa-lg]
 ---
 ### ログと実処理用のファイルは分ける
 ---
