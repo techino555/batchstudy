@@ -66,7 +66,7 @@ exit /b
 
 作成後拡張子をbatに変更し、ダブルクリックするとフォルダが２つ開くことを確認できる。</br>
 </br>
-右に進む@fa[arrow-circle-right fa-lg]
+次に進む@fa[arrow-circle-right fa-lg]
 
 ---
 
@@ -74,7 +74,8 @@ exit /b
 - rem： コマンド出力に反映されないのでコメントを記載するときに使用。</br>
 - echo： コマンド出力に反映されるコメント。コマンドを投入した人に処理内容を表示する際に使用。</br>
 </br>
-下に進む@fa[arrow-circle-down fa-lg]
+下に進む@fa[arrow-circle-down fa-lg]</br>
+右は次項の内容@fa[arrow-circle-right fa-lg]
 
 +++
 
@@ -126,7 +127,8 @@ exit /b
 2018/02/22  
 ```
 変数を%と%を囲うことで定義した値を取得できる。</br>  
-下に進む@fa[arrow-circle-down fa-lg]
+下に進む@fa[arrow-circle-down fa-lg]</br>
+右は次項の内容@fa[arrow-circle-right fa-lg]
 
 +++
 
