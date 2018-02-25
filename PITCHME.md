@@ -239,7 +239,7 @@ exit /b
 出力用の記載をしないといけなくなるためである。</br> 
 ```
 ifconfig >> log.txt
-tasklist >> log.txt  のようなイメージになる
+tasklist >> log.txt  のようにをログ出力の記載を毎行書くようになる
 ```
 </br>
 @fa[arrow-circle-right fa-lg]
