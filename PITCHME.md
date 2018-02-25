@@ -177,7 +177,7 @@ exit /b
 </br>
 @fa[arrow-circle-down fa-lg]
 +++
-例えば前述のtest2.batを実行しログを出力させるために下記のようなバッチを別に作り実行するほうがよい。</br> 
+例えば前述のtest2.batを実行しログを出力させるため下記のようなバッチを別に作り実行するほうがよい。</br> 
 ```
 @echo off
 rem 現在のディレクトリ情報を取得する
@@ -202,11 +202,26 @@ exit /b
 
 +++
 このようにしないとtest2.batの実行結果をログ出力</br> 
-させる場合はすべての行に``` > log.txt ```などのログ</br> 
+させる場合はすべての行に「 > log.txt 」などのログ</br> 
 出力用の記載をしないといけなくなるためである。</br> 
 </br>
 @fa[arrow-circle-right fa-lg]
 ---
 ### 参照資料、ツールの紹介
+・gitpitch</br> 
+https://gitpitch.com/</br> 
+markdown記法でのプレゼンテーションを可能とする</br> 
+GitHubが提供しているサービス。</br> 
+</br> 
+・ScreenToGif</br> 
+http://www.screentogif.com/</br> 
+デスクトップ画面を録画し、ちょっとした画像編集、テキストやイメージを</br> 
+追加してGIFアニメとして保存できるソフト。Windows用。</br> 
+</br> 
+・フォント（→など）</br> 
+https://fontawesome.com/</br> 
+gitpitchで使えるアイコン集。有料のアイコンもある。</br> 
+gitpitchで使えるのは無料のアイコンのみのため</br> 
+今回は無料のものを使用した。</br> 
 ---
 **ありがとうございましたm(＿)m**
