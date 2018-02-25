@@ -32,8 +32,8 @@
 
 ### 2.　バッチが活躍する場面
 #### 大きくは下記の２つが占める
-- ディスクの容量、ネットワークの情報などサーバや端末に関する情報を一度にまとめて取得するとき。
-- タスクスケジューラーを使用の上、決まった時間にサーバで処理をさせたいとき。<br/>
+- ディスクの容量、ネットワークの情報などサーバや端末に関する情報を一度にまとめて取得する時。
+- タスクスケジューラーを使用の上、決まった時間にサーバで処理をさせたい時。<br/>
 <br/>
 **タスクスケジューラーでよく実装されるのは定期再起動とバックアップ。**
 
@@ -69,8 +69,8 @@ exit /b
 ---
 
 ### 4.　remとechoは書こう
-- rem： コマンド出力に反映されないのでコメントを記載するときに使用。</br>
-- echo： コマンド出力に反映されるコメント。コマンドを投入した人に処理内容を表示する際に使用。</br>
+- rem： コマンド出力に反映されないのでコメントを記載する時に使用。</br>
+- echo： コマンド出力に反映されるコメント。コマンドを投入した人に処理内容を表示する時に使用。</br>
 </br>
 下に進む@fa[arrow-circle-down fa-lg]</br>
 右は次項の内容@fa[arrow-circle-right fa-lg]
@@ -132,10 +132,10 @@ exit /b
 また自分で変数を設定することもできる。</br>  
 設定例:  
 ```
-set year=%date:~0,4%    
-set month=%date:~5,2%    
-set day=%date:~8,2%  
-set date2=%year%%month%%day%    
+set YEAR=%date:~0,4%
+set MONTH=%date:~5,2%
+set DAY=%date:~8,2%
+set DATE2=%YEAR%%MONTH%%DAY%  
 ```
 </br>
 @fa[arrow-circle-down fa-lg]
@@ -145,13 +145,13 @@ set date2=%year%%month%%day%
 役割の紹介  
 
 ```
-set year=%date:~0,4%  
+set YEAR=%date:~0,4%
 ```
 →date変数の出力結果の1文字目から5文字までの  
 4文字分の値を取得。結果は2018。  
 文字のカウントは0から始める。  
 ```
-set month=%date:~5,2%  
+set MONTH=%date:~5,2%
 ```
 →date変数のの出力結果の6文字目から7文字までの  
 2文字分の値を取得。結果は02。  
@@ -161,12 +161,12 @@ set month=%date:~5,2%  
 +++
 
 ```
-set day=%date:~8,2%  
+set DAY=%date:~8,2%
 ```
 →date変数の出力結果の1文字目から5文字までの  
 4文字分の値を取得。結果は22日なら22。  
 ```
-set date2=%year%%month%%day%  
+set DATE2=%YEAR%%MONTH%%DAY%
 ```
 →それぞれ設定した変数を%で囲った形で続けて  
 定義できる。この場合の結果は20180222。</br>
@@ -185,10 +185,10 @@ rem 現在のディレクトリ情報を取得する。
 rem 今日の日付をログファイルに付加する。
 rem 作成は石川。
 
-set year=%date:~0,4%    
-set month=%date:~5,2%    
-set day=%date:~8,2%  
-set date2=%year%%month%%day%    
+set YEAR=%date:~0,4% 
+set MONTH=%date:~5,2%    
+set DAY=%date:~8,2%
+set DATE2=%YEAR%%MONTH%%DAY%   
 
 dir > log_%date2%
 
@@ -219,10 +219,10 @@ rem 今日の日付をログファイルに付加する。
 rem 作成は石川。
 
 setlocal 
-set year=%date:~0,4%
-set month=%date:~5,2%
-set day=%date:~8,2%
-set date2=%year%%month%%day%
+set YEAR=%date:~0,4%
+set MONTH=%date:~5,2%
+set DAY=%date:~8,2%
+set DATE2=%YEAR%%MONTH%%DAY%
 
 echo "処理開始"
 
