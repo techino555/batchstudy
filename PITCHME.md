@@ -61,7 +61,7 @@ exit /b
 </br>
 下に進む@fa[arrow-circle-down fa-lg]
 +++
-- @echo offについて</br>
+**@echo offについて**</br>
 これを冒頭に記載しないとバッチの処理がすべてコマンドプロンプトに出力されてしまうため
 記載することが基本。</br>
 </br>
